@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <org.fonuhuolian.xcasheditview.XCashEditText
+        android:id="@+id/cEdit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#E7E7E7"
+        android:text="啊啊啊" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#DF0101" />
+
+</LinearLayout>
